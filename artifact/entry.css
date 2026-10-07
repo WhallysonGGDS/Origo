@@ -1,0 +1,21 @@
+@import "../app/globals.css";
+@source "../components";
+@source "../app";
+
+@font-face {
+  font-family: "Archivo";
+  src: url("./fonts/archivo.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/inter.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-display: swap;
+}
+:root {
+  --font-archivo: "Archivo";
+  --font-inter: "Inter";
+}
